@@ -1,0 +1,86 @@
+.po-social-media {
+    width: 100%;
+    height: 600px;
+    background: url(/app/img/po-social-media-gackground.png), transparent linear-gradient(270deg, #6696E2 0%, #E27866 100%) 0% 0% no-repeat padding-box;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        gap: 20px;
+        
+        button.active {
+            opacity: 1;
+        }
+    }
+
+    button {
+        width: 100px;
+        height: 100px;
+        background: #E27866;
+        border: none;
+        box-shadow: 0px 3px 6px #00000029;
+        font-family: montserrat;
+        font-size: 14px;
+        opacity: 0.5;
+    }
+
+    button:hover{
+        opacity: 1;
+    }
+
+    .po-social-media-text {
+        margin-left: 50px;
+    }
+
+    h6 {
+        font-size: 14px;
+        transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+    }
+
+    h1 {
+        color: white;
+        font-family: montserrat;
+        text-align: left;
+        letter-spacing: 0px;
+    }
+
+    p {
+        color: white;
+        text-align: left;
+    }
+
+    .nuotraukos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 362px;
+        margin-right: 150px;
+    }
+
+    .kvadratines-nuotraukos {
+        max-width: 168px;
+        max-height: 168px;
+    }
+
+    .batu-nuotrauka {
+        max-width: 362px;
+        max-height: 177px;
+    }
+
+    .tab {
+        display: none;
+    }
+
+    .tabs .active {
+        display: block;
+    }
+
+    #register {
+        display: block;
+    }
+}

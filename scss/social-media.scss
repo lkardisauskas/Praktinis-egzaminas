@@ -1,0 +1,62 @@
+.social-media {
+    width: 100%;
+    height: 105px;
+    // padding-left: 152px;
+    // padding-top: 20px;
+    display: flex;
+}
+
+.social-media-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 50%;
+    margin-left: 150px;
+}
+
+.social-media-text h3 {
+    padding-bottom: 5px;
+}
+
+.social-media-text p {
+    color: #86878B;
+}
+
+.social-media-svg {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    color: black;
+}
+
+.facebook-logo {
+    width: 30px;
+    height: 30px;
+    background: transparent url(../img/svg/facebook-logo.svg) no-repeat;
+}
+.instagram-logo {
+    width: 30px;
+    height: 30px;
+    background: transparent url(../img/svg/instagram-logo.svg) no-repeat;
+}
+.twitter-logo {
+    width: 36px;
+    height: 30px;
+    background: transparent url(../img/svg/twitter.svg) no-repeat padding-box;
+    background-size: cover;
+}
+.pinterest-logo {
+    width: 30px;
+    height: 30px;
+    background: transparent url(../img/svg/pinterest.svg) no-repeat;
+}
+.rss-logo {
+    width: 30px;
+    height: 30px;
+    background: transparent url(../img/svg/rss-solid.svg) no-repeat;
+    opacity: 0.69;
+}

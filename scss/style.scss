@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: montserrat;
+  // overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+@import "header";
+@import "po-header";
+@import "social-media";
+@import "po-social-media";
+@import "features-panel-2";
+@import "our-process-panel";
+@import "pricing-panel";
+@import "testimonial-panel";
+@import "features-panel-1";
+@import "footer";
+@import "media";
